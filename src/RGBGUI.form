@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RGBGUI">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="631" height="377"/>
+    </constraints>
+    <properties>
+      <background color="-7035205"/>
+      <font name="Arial Black" size="20" style="1"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <component id="67bee" class="javax.swing.JTextField" binding="txtGreen">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5327429"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+        </properties>
+      </component>
+      <component id="8f5c3" class="javax.swing.JTextField" binding="txtRed">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5327429"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f1b22" class="javax.swing.JTextField" binding="txtBlue">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5327429"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+        </properties>
+      </component>
+      <component id="aea7f" class="javax.swing.JButton" binding="btnColorFind">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16043967"/>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-4485472"/>
+          <text value="IDENTIFY"/>
+        </properties>
+      </component>
+      <component id="11fd9" class="javax.swing.JLabel" binding="lblRed">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7423061"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+          <text value="R:"/>
+        </properties>
+      </component>
+      <component id="61650" class="javax.swing.JLabel" binding="lblGreen">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7423061"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+          <text value="G:"/>
+        </properties>
+      </component>
+      <component id="fc055" class="javax.swing.JLabel" binding="lblBlue">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7423061"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+          <text value="B:"/>
+        </properties>
+      </component>
+      <component id="986bf" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16043967"/>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-4485472"/>
+          <text value="CLEAR"/>
+        </properties>
+      </component>
+      <component id="98642" class="javax.swing.JButton" binding="btnColor">
+        <constraints>
+          <grid row="2" column="3" row-span="2" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4933957"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5d707" class="javax.swing.JLabel" binding="lblColor">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7423061"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-16186620"/>
+          <text value="COLOR:"/>
+        </properties>
+      </component>
+      <component id="ad8c0" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7423061"/>
+          <font name="Arial Black" size="26" style="1"/>
+          <foreground color="-16186620"/>
+          <text value="RGB COLOR IDENTIFIER"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
